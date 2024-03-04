@@ -5,7 +5,7 @@ export default function Home() {
         <main className="flex min-h-screen flex-col items-center justify-between bg-[#F4D04E] text-black">
             <div className="my-auto flex flex-col p-8 -mr-3">
                 <div className="flex flex-row-reverse">
-                    <div className="bg-black mt-5 -mb-1 p-3 -ml-2 rounded-r-xl">
+                    <div className="bg-black mt-2 -mb-1 p-2 -ml-2 rounded-r-2xl">
 
                     </div>
                     <div className="bg-white flex flex-col items-center p-4 rounded-xl my-auto z-10">
@@ -17,7 +17,7 @@ export default function Home() {
                             </div>
                             <div className="mb-2">
                                 <p className=" text-wrap text-[13px] mt-4 mb-4">Published 21 Dec 2023</p>
-                                <button className="hover:text-[#F4D04E] cursor-pointer text-[22px]">HTML & CSS Foundations</button>
+                                <button className="hover:text-[#F4D04E] cursor-pointer text-[22px] font-bold">HTML & CSS Foundations</button>
                                 <div className="flex flex-row justify-between items-center text-[14px] mt-2">
                                     <p>these languages are the backbone of every website, defining estructure, content and presentation.</p>
                                 </div>
@@ -32,7 +32,7 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="bg-black ml-6 -mt-2 p-3 z-0 rounded-b-xl">
+                <div className="bg-black ml-2 -mt-2 p-2 z-0 rounded-b-2xl">
                 </div>
             </div>
         </main>
